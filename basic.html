@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sampath | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">Sampath</div>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Sampath</span></h1>
+            <p>I am a passionate</p>
+            <p id="typing" class="typewriter-text"></p>
+            
+                
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>
+                I am <strong>Sampath</strong>, an aspiring <strong>Full Stack Developer</strong> and 
+                <strong>Machine Learning enthusiast</strong>. I enjoy building web applications,
+                learning AI concepts, and understanding systems from the ground up.
+            </p>
+            <p>
+                I strongly believe in learning through <strong>real-world analogies</strong>,
+                which helps me grasp complex topics like AI, ML, and IT infrastructure easily.
+            </p>
+            <p>
+                I am also actively improving my <strong>English communication skills</strong>
+                to perform better in interviews and professional environments.
+            </p>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2 class="section-title">Education & Training</h2>
+        <div class="timeline"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skill-box"></div>
+        
+        <div class="progress-container">
+          
+            <!-- Progress bars will be dynamically added -->
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid"></div>
+    </section>
+
+    <!-- GOALS -->
+    <section id="goals">
+        <h2 class="section-title">Career Goals</h2>
+        <div class="goals-content">
+            <div class="goal-card">
+                <h3>🎯 Short-term Goal</h3>
+                <p>Become a <strong>job-ready Full Stack Developer</strong> with strong fundamentals in JavaScript, React, and backend technologies.</p>
+            </div>
+            <div class="goal-card">
+                <h3>🚀 Long-term Goal</h3>
+                <p>Work in the field of <strong>Artificial Intelligence and Machine Learning</strong>, contributing to impactful and intelligent systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-item" onclick="sendEmail()">
+                <div class="contact-icon">✉️</div>
+                <strong>Email</strong>
+                <p>sampathgaming2006@gmail.com</p>
+            </div>
+            <div class="contact-item" onclick="window.location.href='tel:8940470571'">
+                <div class="contact-icon">📱</div>
+                <strong>Phone</strong>
+                <p>+91 8940470571</p>
+            </div>
+            <div class="contact-item" onclick="window.open('https://linkedin.com/in/sampath-v-896aaa326', '_blank')">
+                <div class="contact-icon">💼</div>
+                <strong>LinkedIn</strong>
+                <p>Sampath V</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Sampath | Full Stack • AI • ML • Continuous Learning</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
